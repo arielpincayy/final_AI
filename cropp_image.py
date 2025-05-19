@@ -13,7 +13,7 @@ os.makedirs(output_cropped, exist_ok=True)
 os.makedirs(output_rectangles, exist_ok=True)
 
 # Obtener lista de imágenes a procesar
-image_files = glob.glob(os.path.join(input_folder, "*.jpg")) + glob.glob(os.path.join(input_folder, "*.png")) + glob.glob(os.path.join(input_folder, "*.jpeg"))
+image_files = glob.glob(os.path.join(input_folder, "*.jpg")) + glob.glob(os.path.join(input_folder, "*.png")) + glob.glob(os.path.join(input_folder, "*.jpeg")) + glob.glob(os.path.join(input_folder, "*.JPG"))
 
 for image_path in image_files:
     # Cargar y redimensionar imagen
