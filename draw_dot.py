@@ -39,7 +39,7 @@ for image_file in image_files:
         continue
 
     drawing = False
-    radius = 20
+    radius = 5
     circles = []
 
     img = original.copy()
